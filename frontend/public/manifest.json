@@ -1,0 +1,48 @@
+{
+	"short_name": "Market Watch",
+	"name": "Influen$e Content Market Watch",
+    "start_url": "/?utm_source=marketwatch",
+	"scope": "/",
+	"display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#e33e5c",
+	"theme_color": "#e33e5c",
+    "description": "The only Social Influencer Platform that shows you influencers who represent your brand, the value of their content, and cost per acquisition in real time.",
+	"icons": [{
+			"src": "/images/ig-logo-36.png",
+			"sizes": "36x36",
+			"type": "image/png",
+			"density": "0.75"
+		},
+		{
+			"src": "/images/ig-logo-48.png",
+			"sizes": "48x48",
+			"type": "image/png",
+			"density": "1.0"
+		},
+		{
+			"src": "/images/ig-logo-72.png",
+			"sizes": "72x72",
+			"type": "image/png",
+			"density": "1.5"
+		},
+		{
+			"src": "/images/ig-logo-96.png",
+			"sizes": "96x96",
+			"type": "image/png",
+			"density": "2.0"
+		},
+		{
+			"src": "/images/ig-logo-144.png",
+			"sizes": "144x144",
+			"type": "image/png",
+			"density": "3.0"
+		},
+		{
+			"src": "/images/ig-logo-512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"density": "4.0"
+		}
+	]
+}

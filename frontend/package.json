@@ -1,0 +1,47 @@
+{
+  "name": "MarketWatch",
+  "version": "0.1.0",
+  "description": "Instagram Influencer content valuation in real time.",
+  "private": true,
+  "keywords": [],
+  "author": "Michael Lisboa",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "recompose": "^0.30.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "uikit": "^3.0.3"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "deploy": "npm run build && gcloud app deploy -q",
+    "start": "serve -s build",
+    "prestart": "npm install -g serve",
+    "local": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
